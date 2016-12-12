@@ -49,9 +49,9 @@
 将某个类的接口转换成客户端期望的另一个接口表示，目的是消除由于接口不匹配所造成的类的兼容性问题。
 
 #### 分类
-* 类的适配器模式
-* 对象的适配器模式
-* 接口的适配器模式
+* 类的适配器模式 - [ClassAdapter](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/adapter/ClassAdapter.java)
+* 对象的适配器模式 - [ObjectAdapter](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/adapter/ObjectAdapter.java)
+* 接口的适配器模式 - [InterfaceAdapter](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/adapter/InterfaceAdapter.java)
 
 类的适配器模式和对象的适配器模式类似，将目标类和目标接口的功能扩展到接口中。<br/>
 接口的适配器模式主要用来解决，我们写的接口有多个抽象方法，但我们写的接口并不想实现所有的方法，<br/>
@@ -170,11 +170,20 @@
 ### [解释器模式(Interpreter pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/interpreter)
 使用解释器模式为语言创建解释器，解释器模式用来做各种各样的解释器，如正则表达式等的解释器等等。
 
+***
+
 ## 设计模式的七大设计原则
-1. 单一职责原则【SINGLE RESPONSIBILITY PRINCIPLE】：一个类负责一项职责。
-2. 里氏替换原则【LISKOV SUBSTITUTION PRINCIPLE】：继承与派生的规则。
-3. 依赖倒置原则【DEPENDENCE INVERSION PRINCIPLE】：高层模块不应该依赖低层模块，二者都应该依赖其抽象；抽象不应该依赖细节；细节应该依赖抽象。即针对接口编程，不要针对实现编程。
-4. 接口隔离原则【INTERFACE SEGREGATION PRINCIPLE】：建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少。
-5. 迪米特法则【LOW OF DEMETER】：低耦合，高内聚。
-6. 开闭原则【OPEN CLOSE PRINCIPLE】：一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。
-7. 组合/聚合复用原则【Composition/Aggregation Reuse Principle(CARP)】：尽量使用组合和聚合少使用继承的关系来达到复用的原则。
+### 单一职责原则【SINGLE RESPONSIBILITY PRINCIPLE】
+一个类负责一项职责。
+### 里氏替换原则【LISKOV SUBSTITUTION PRINCIPLE】
+继承与派生的规则。
+### 依赖倒置原则【DEPENDENCE INVERSION PRINCIPLE】
+高层模块不应该依赖低层模块，二者都应该依赖其抽象；抽象不应该依赖细节；细节应该依赖抽象。即针对接口编程，不要针对实现编程。
+### 接口隔离原则【INTERFACE SEGREGATION PRINCIPLE】
+建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少。
+### 迪米特法则【LOW OF DEMETER】
+低耦合，高内聚。
+### 开闭原则【OPEN CLOSE PRINCIPLE】
+一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。
+### 组合/聚合复用原则【Composition/Aggregation Reuse Principle(CARP)】
+尽量使用组合和聚合少使用继承的关系来达到复用的原则。
