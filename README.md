@@ -115,6 +115,12 @@
 定义了算法族, 分别封闭起来, 让它们之间可以互相替换,且算法的变化不会影响到使用算法的客户。<br/>
 策略模式的决定权在用户，系统本身提供不同算法的实现，策略模式多用在算法决策系统中，外部用户只需要决定用哪个算法即可。
 
+#### 和桥接模式的关系
+和策略模式相比，桥接模式要表达的内容要更多，结构也更加复杂。桥接模式表达的主要意义其实是接口隔离的原则，<br/>
+即把本质上并不内聚的两种体系区别开来，使得它们可以松散的组合，而策略在解耦上还仅仅是某一个算法的层次，没有到体系这一层次。<br/>
+策略的结构是包容在桥接结构中的，桥接中必然存在着策略模式，[Bridge](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/Bridge.java)与[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)之间就可以认为是策略模式，<br/>
+但是桥接模式一般[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)将提供一系列的成体系的操作，而且[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)是具有状态和数据的静态结构。而且桥接模式[Bridge](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/Bridge.java)也可以独立变化。
+
 ***
 
 ### [模板方法模式(Template pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/template)
