@@ -14,10 +14,10 @@ public abstract class AbstractCalculator {
     public final int calculate(String exp, String opt) {
         int[] array = split(exp, opt);
 
-        return calculate(array[0], array[1]);
+        return abstractCalculate(array[0], array[1]);
     }
 
-    abstract public int calculate(int i1, int i2);
+    abstract public int abstractCalculate(int i1, int i2);
 
 
     /**
