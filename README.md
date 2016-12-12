@@ -2,7 +2,7 @@
 
 ## 创建型模式
 
-### 单例模式(Singleton pattern)
+### [单例模式(Singleton pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/singleton)
 确保一个类只有一个实例，并提供全局访问。
 
 #### 防止单例模式被反射攻击
