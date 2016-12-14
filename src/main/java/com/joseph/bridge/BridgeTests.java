@@ -14,11 +14,11 @@ public class BridgeTests {
         // 调用mysql对象
         MySql mySql = new MySql();
         bridge.setDataBase(mySql);
-        bridge.im();
+        bridge.execute();
 
         // 调用mongodb对象
         MongoDB mongoDB = new MongoDB();
         bridge.setDataBase(mongoDB);
-        bridge.im();
+        bridge.execute();
     }
 }

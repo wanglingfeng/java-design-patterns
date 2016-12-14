@@ -5,7 +5,7 @@ package com.joseph.bridge;
  */
 public class MyBridge extends Bridge {
     @Override
-    public void im() {
+    public void execute() {
         getDataBase().im();
     }
 }

@@ -11,7 +11,7 @@ public abstract class Bridge {
 
     private DataBase dataBase;
 
-    public void im() {
+    public void execute() {
         dataBase.im();
     }
 

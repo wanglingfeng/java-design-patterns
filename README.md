@@ -92,6 +92,8 @@
 ### [桥接模式(Bridge pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/bridge)
 把事物和其具体实现分开，使他们可以各自独立的变化。将抽象化与实现化解耦，使得二者可以独立变化(类似jdbc切换数据库基本上不用改什么代码就能自由切换)。
 
+![bridge-pattern](http://oi5y1stl0.bkt.clouddn.com/bridge-pattern.png)
+
 ***
 
 ### [组合模式(Composite pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/composite)
