@@ -1,6 +1,8 @@
 package com.joseph.visitor;
 
 /**
+ * 被访问者接口
+ *
  * Created by lfwang on 2016/12/12.
  */
 public interface Subject {

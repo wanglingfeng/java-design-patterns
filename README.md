@@ -124,7 +124,7 @@
 ***
 
 ### [模板方法模式(Template pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/template)
-一个抽象类中，有一个主方法，再定义n个方法，可以是抽象的，也可以是实际的方法，定义一个类，继承该抽象类，重写抽象方法，通过调用抽象类，实现对子类的调用。
+一个抽象类中，有一个主方法，再定义n个方法，可以是抽象的，也可以是实际的方法，定义一个类，继承该抽象类，重写抽象方法，通过调用抽象类的主方法，实现对子类方法实现的调用。
 
 ***
 
@@ -162,7 +162,7 @@
 
 ### [访问者模式(Visitor pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/visitor)
 访问者模式把数据结构和作用于结构上的操作解耦合，使得操作集合可相对自由地演化。访问者模式适用于数据结构相对稳定算法又易变化的系统。<br/>
-简单来说，访问者模式就是一种分离对象数据结构与行为的方法，通过这种分离，可达到为一个被访问者动态添加新的操作而无需做其它的修改的效果。
+简单来说，访问者模式就是一种分离对象数据结构与行为的方法，通过这种分离，可达到为一个被访问者[MySubject](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/visitor/MySubject.java)动态添加新的操作而无需做其它的修改的效果。
 
 ***
 
