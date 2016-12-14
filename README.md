@@ -169,7 +169,7 @@
 ### [中介者模式(Mediator pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/mediator)
 使用中介者模式来集中相关对象之间复杂的沟通和控制方式，用来降低类类之间的耦合的。<br/>
 如果类类之间有依赖关系的话，不利于功能的拓展和维护，因为只要修改一个对象，其它关联的对象都得进行修改。<br/>
-如果使用中介者模式，只需关心和Mediator类的关系，具体类类之间的关系及调度交给Mediator就行。
+如果使用中介者模式，只需关心和[Mediator](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/mediator/MyMediator.java)类的关系，具体类类之间的关系及调度交给[Mediator](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/mediator/MyMediator.java)就行。
 
 ***
 
