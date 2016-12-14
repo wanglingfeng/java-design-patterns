@@ -124,6 +124,9 @@
 策略的结构是包容在桥接结构中的，桥接中必然存在着策略模式，[Bridge](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/Bridge.java)与[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)之间就可以认为是策略模式，<br/>
 但是桥接模式一般[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)将提供一系列的成体系的操作，而且[DataBase](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/db/DataBase.java)是具有状态和数据的静态结构。而且桥接模式[Bridge](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/bridge/Bridge.java)也可以独立变化。
 
+#### 示例代码关系图
+![strategy-pattern](http://oi5y1stl0.bkt.clouddn.com/strategy-patterns.png)
+
 ***
 
 ### [模板方法模式(Template pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/template)
