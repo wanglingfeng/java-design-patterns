@@ -7,6 +7,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
+ * 反射有效保护攻击
+ *
  * Created by lfwang on 2016/12/12.
  */
 public class SingletonModifiedReflectAttack {
@@ -16,6 +18,9 @@ public class SingletonModifiedReflectAttack {
         enumSingletonAttack();
     }
 
+    /**
+     * 内部类同步实例化对象攻击
+     */
     public static void syncSingletonAttack() {
         Class<SyncSingleton> classType = SyncSingleton.class;
 
@@ -31,6 +36,9 @@ public class SingletonModifiedReflectAttack {
         }
     }
 
+    /**
+     * 枚举实例化攻击
+     */
     public static void enumSingletonAttack() {
         Class<EnumSingleton> classType = EnumSingleton.class;
 
