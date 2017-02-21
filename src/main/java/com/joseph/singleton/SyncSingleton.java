@@ -1,6 +1,8 @@
-package com.joseph.singleton.effective.refelct.attack;
+package com.joseph.singleton;
 
 /**
+ * 创建单例对象是使用内部类同步方法创建并且防止被侵犯
+ *
  * Created by lfwang on 2016/12/12.
  */
 public class SyncSingleton {

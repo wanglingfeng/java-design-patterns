@@ -1,5 +1,8 @@
 package com.joseph.singleton.effective.refelct.attack;
 
+import com.joseph.singleton.EnumSingleton;
+import com.joseph.singleton.SyncSingleton;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
