@@ -6,8 +6,8 @@
 确保一个类只有一个实例，并提供全局访问。
 
 #### 防止单例模式被反射攻击
-* 构造器在被要求创建第二个实例时抛出异常([SyncSingleton](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/singleton/effective/refelct/attack/SyncSingleton.java))
-* 用枚举类写单例模式([EnumSingleton](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/singleton/effective/refelct/attack/EnumSingleton.java))
+* 构造器在被要求创建第二个实例时抛出异常([SyncSingleton](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/singleton/SyncSingleton.java))
+* 用枚举类写单例模式([EnumSingleton](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/singleton/EnumSingleton.java))
 
 ***
 
