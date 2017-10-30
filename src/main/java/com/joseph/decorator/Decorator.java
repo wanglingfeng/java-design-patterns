@@ -17,10 +17,4 @@ public class Decorator implements DecoratorSay {
         source.say();
         System.out.println("after decorator!");
     }
-
-    public static void main(String... args) {
-        DecoratorSay source = new DecoratorSayImpl();
-        DecoratorSay newSource = new Decorator(source);
-        newSource.say();
-    }
 }

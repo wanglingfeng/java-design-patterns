@@ -25,9 +25,4 @@ public class Proxy implements Animal {
     private void after() {
         System.out.println("after proxy");
     }
-
-    public static void main(String... args) {
-        Animal animal = new Proxy();
-        animal.name();
-    }
 }
