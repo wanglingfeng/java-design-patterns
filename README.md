@@ -85,7 +85,9 @@
 ***
 
 ### [外观模式(Facade pattern)](https://github.com/wanglingfeng/java-design-patterns/tree/master/src/main/java/com/joseph/facade)
-外观模式是为了解决类与类之间的依赖关系，将他们的关系放在一个Facade类[Computer类](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/facade/Computer.java)中，降低了类与类之间的耦合度。
+外观模式是为了解决类与类之间的依赖关系<br/>
+将他们的关系放在一个Facade类[Computer类](https://github.com/wanglingfeng/java-design-patterns/blob/master/src/main/java/com/joseph/facade/Computer.java)中，降低了类与类之间的耦合度。<br/>
+简单来说，就是提供一个统一的接口，用来访问子系统中的一群接口。
 
 ***
 
